@@ -1,0 +1,39 @@
+.parent
+{
+    width: 800px;
+    background-color: rgb(189, 189, 216);
+    height: 600px;
+    margin: 20px auto;
+    position: relative;
+}
+.parent .Box
+{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    position: absolute;/*top bottom left right*/
+    top: 0;
+    left: o;
+    z-index: 3;
+}
+.parent .Box2
+{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(13, 221, 124);
+    position: absolute;
+    top: 100px;
+    left:50px;
+    z-index: 2;
+
+}
+.parent .Box3
+{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(236, 22, 22);
+    position: absolute;
+    bottom: 100px;
+    left: 300px;
+    z-index: 1; /* not px*/  
+}
